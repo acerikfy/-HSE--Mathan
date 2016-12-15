@@ -14,10 +14,11 @@
 \graphicspath{{pictures/}}            % Стандартный путь к картинкам
 \newcommand{\eps}{\varepsilon}
 \newtheorem*{Consequence}{Следствие}
+\newtheorem*{task}{Задачка}
 
 \begin{document}
 
-    \section*{Задача 11}
+    \section*{Задача 9}
 
     Покажите, что последовательность $(1 + \frac{1}{n})^n$ имеет предел.
 
@@ -67,5 +68,31 @@
         $$\forall n\in \mathbb{N}\rightarrow x_{n}\geq y_{n}.$$
 
         Поэтому должно выполняться неравенство  $a\geq b$.
+    \end{proof}
+
+    \begin{task} %да сколько можно!!! заебался, говно, матан, не хочу хнык.
+        Найти $\lim\limits_{n \to \infty} x_n$, $\{x_n\} = \frac{1}{\sqrt{n^2 + 1}} +  \ldots + \frac{1}{\sqrt{n^2 + n}}. $
+    \end{task}
+    \begin{proof}[Решение]
+    Будем юзать теорему о двух милиционерах (или о трех последовательностях). Для этого заметим
+    $$ \frac{1}{\sqrt{n^2 + 1}} +  \ldots + \frac{1}{\sqrt{n^2 + n}} \geq 
+       \frac{1}{\sqrt{n^2 + n}} +  \ldots + \frac{1}{\sqrt{n^2 + n}} = $$
+
+    $$ = \frac{n}{\sqrt{n^2 + n}} = \frac{1}{\sqrt{\frac{n^2}{n^2} + \frac{n}{n^2}}} = \frac{1}{\sqrt{1 + \frac{1}{n}}}.$$
+
+    С другой стороны имеем:
+    $$ \frac{1}{\sqrt{n^2 + 1}} +  \ldots + \frac{1}{\sqrt{n^2 + n}} \leq 
+       \frac{1}{\sqrt{n^2 + 0}} +  \ldots + \frac{1}{\sqrt{n^2 + 0}} = $$
+
+    $$ = \frac{n}{\sqrt{n^2}} = 1.$$
+
+    Таким образом:
+    $$\frac{1}{\sqrt{1 + \frac{1}{n}}} \leq x_n \leq 1.$$
+
+    Переходя к приделам, получаем:
+        $$\lim\limits_{x \to \infty}i\frac{1}{\sqrt{1 + \frac{1}{n}}} \leq \lim\limits_{x \to \infty}x_n \leq \lim\limits_{x \to \infty}1.$$
+
+        $$1\leq \lim\limits_{x \to \infty}x_n \leq 1.$$
+    Ну и ежику понятно, что $\lim\limits_{x \to \infty}x_n = 1$.
     \end{proof}
 \end{document}
