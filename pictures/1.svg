@@ -1,0 +1,26 @@
+<svg width="640" height="480" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+ <g>
+  <title>Layer 1</title>
+  <line fill="none" stroke="#000000" stroke-width="2" y2="250" x2="630" y1="250" x1="50" id="svg_1"/>
+  <line y1="260" x1="615" x2="630" id="svg_55" y2="250" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="2" stroke="#000000" fill="none"/>
+  <line y1="240" x1="615" x2="630" id="svg_55" y2="250" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="2" stroke="#000000" fill="none"/>
+  <circle id="svg_2" cx="447" cy="250" r="6.70819" stroke-width="0" stroke="#000000" fill="#000000"/>
+  <circle id="svg_4" cx="386" cy="250" r="6.70819" stroke-width="0" stroke="#000000" fill="#000000"/>
+  <circle id="svg_5" cx="214" cy="250" r="6.70819" stroke-width="0" stroke="#000000" fill="#000000"/>
+  <circle id="svg_6" cx="321" cy="249" r="6.70819" stroke-width="0" stroke="#000000" fill="#000000"/>
+  <text font-size="21" id="svg_7" y="254" x="559" text-anchor="middle" xml:space="preserve" font-family="Serif" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#000000">)</text>
+  <text font-size="21" id="svg_8" y="253" x="82" text-anchor="middle" xml:space="preserve" font-family="Serif" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#000000">(</text>
+  <text font-size="21" id="svg_9" y="231" x="212" font-style="italic" text-anchor="middle" xml:space="preserve" font-family="Serif" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#000000">X</text>
+  <text font-weight="bold" transform="matrix(1 0 0 0.826087 0 37.0435)" font-size="21" id="svg_10" y="239.47367" x="223" text-anchor="middle" xml:space="preserve" font-family="Serif" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#000000">n</text>
+  <text font-style="italic" font-size="21" id="svg_11" y="230" x="380" text-anchor="middle" xml:space="preserve" font-family="Serif" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#000000">Y</text>
+  <text id="svg_12" transform="matrix(1 0 0 0.826087 0 37.0435)" font-size="21" y="237.94729" x="387.53251" font-weight="bold" text-anchor="middle" xml:space="preserve" font-family="Serif" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#000000">n</text>
+  <text font-style="italic" font-size="21" id="svg_13" y="231" x="447" text-anchor="middle" xml:space="preserve" font-family="Serif" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#000000">Z</text>
+  <text font-weight="bold" transform="matrix(1 0 0 0.826087 0 37.0435)" font-size="21" y="237.94729" x="458.53251" id="svg_14" text-anchor="middle" xml:space="preserve" font-family="Serif" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#000000">n</text>
+  <text font-size="21" id="svg_15" y="271" x="321" text-anchor="middle" xml:space="preserve" font-family="Serif" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#000000">a</text>
+  <text stroke-width="0" stroke="#000000" font-style="normal" fill="#000000" font-size="21" id="svg_5" y="270" x="79" text-anchor="middle" xml:space="preserve" font-family="Serif" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null">a-</text>
+  <text stroke="#000000" fill="#000000" font-size="21" id="svg_28" y="271" x="554" text-anchor="middle" xml:space="preserve" font-family="Serif" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0">a+</text>
+  <text fill="#000000" stroke="#000000" stroke-width="0" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" font-family="Cursive" xml:space="preserve" text-anchor="middle" id="svg_35" x="274.52145" y="334.53124" font-size="21" transform="rotate(1.03838 567.5 267.5) matrix(0.381729 0 0 0.790127 462.102 7.326)" font-style="italic" font-weight="bold">E</text>
+  <text fill="#000000" stroke="#000000" stroke-width="0" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" font-family="Cursive" xml:space="preserve" text-anchor="middle" id="svg_3" x="277.14104" y="334.53124" font-size="21" transform="rotate(1.03838 90.5 267.5) matrix(0.381729 0 0 0.790127 -15.8982 7.32598)" font-style="italic" font-weight="bold">E</text>
+ </g>
+</svg>
