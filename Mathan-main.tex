@@ -87,23 +87,20 @@
 \newcommand{\al}{\alpha}
 
 %% Определения
-\newtheorem{definition}{Определение}
-\newtheorem*{defin}{Определение}
-\newtheorem*{defi}{Определение}
+\newtheorem*{definition}{Определение}
+\newtheorem*{Proof}{Доказательство}
 \newtheorem{Def}{Определение}
+\newtheorem*{defi}{Определение}
 \newtheorem*{Lemma}{Лемма}
-\newtheorem{Suggestion}{Предложение}
-\newtheorem*{Examples}{Пример}
+\newtheorem*{examples}{Пример}
 \newtheorem*{Consequence}{Следствие}
-\newtheorem{Theorem}{Теорема}
+\newtheorem*{theorem}{Теорема}
+\newtheorem*{theor}{Теорема}
 \newtheorem*{ther}{Теорема}
-\newtheorem{Statement}{Утверждение}
-\newtheorem*{Task}{Упражнение}
-\newtheorem*{Designation}{Обозначение}
-\newtheorem*{Generalization}{Обобщение}
-\newtheorem*{Thedream}{Предел мечтаний}
+\newtheorem*{task}{Задача}
 \newtheorem*{Properties}{Свойства}
 \newtheorem*{Note}{Замечание}
+\newtheorem*{ticket}{Билет}
 
 \newcommand{\Z}{\mathbb{Z}}
 \newcommand{\N}{\mathbb{N}}
@@ -131,7 +128,6 @@
 \newtheorem*{lem1}{Лемма 1}
 \newtheorem*{lem2}{Лемма 2}
 \newtheorem*{lem3}{Лемма 3}
-\newtheorem*{task}{Задача}
 \renewcommand{\thesection}{Задача \arabic{section}}
 \setcounter{section}{3}
 \renewcommand{\thesubsection}{Пункт \asbuk{subsection})}
@@ -161,23 +157,107 @@
 		}
 	\maketitle
 	
-	\subfile{problem-1}
-	\subfile{problem-2}
+	\begin{ticket}[1]
+		\subfile{./problems/problem-1}
+		\newpage
+	\end{ticket}
+	
+	\begin{ticket}[2]
+		\subfile{./problems/problem-2}
+		\newpage
+	\end{ticket}
+	
 	%\input{problem-3}
 	
-	\subfile{Matan-456}
+	\begin{ticket}[4]
+		\subfile{./problems/problem-4}
+		\newpage
+	\end{ticket}
 	
-	\subfile{problem-10}	
-	\subfile{problem-11}
-	\subfile{problem-12}
-	\subfile{problem-22}
-	\subfile{problem-23}
-	\subfile{problem-25}
-	\subfile{problem-28}
-	\subfile{problem-29}
-	\subfile{problem-30}
-	\subfile{problem-34}
-	\subfile{problem-35}
-	\subfile{problem-36}
+	\begin{ticket}[5]
+		\subfile{./problems/problem-5}
+		\newpage
+	\end{ticket}
+	
+	\begin{ticket}[6]
+		\subfile{./problems/problem-6}
+		\newpage
+	\end{ticket}
+	
+	\begin{ticket}[10]
+		\subfile{./problems/problem-10}
+		\newpage
+	\end{ticket}
+	
+	\begin{ticket}[11]
+		\subfile{./problems/problem-11}
+		\newpage
+	\end{ticket}
+	
+	\begin{ticket}[12]
+		\subfile{./problems/problem-12}
+		\newpage
+	\end{ticket}
+	
+	\begin{ticket}[13]
+		\subfile{./problems/problem-13}
+		\newpage
+	\end{ticket}
+	
+	\begin{ticket}[14]
+		\subfile{./problems/problem-14}
+		\newpage
+	\end{ticket}
+	
+	\begin{ticket}[15]
+		\subfile{./problems/problem-15}
+		\newpage
+	\end{ticket}
+	
+	\begin{ticket}[22]
+		\subfile{./problems/problem-22}
+		\newpage
+	\end{ticket}
+	\begin{ticket}[23]
+		\subfile{./problems/problem-23}
+		\newpage
+	\end{ticket}
+	
+	\begin{ticket}[25]
+		\subfile{./problems/problem-25}
+		\newpage
+	\end{ticket}
+
+	\begin{ticket}[28]
+		\subfile{./problems/problem-28}
+		\newpage
+	\end{ticket}
+	
+	\begin{ticket}[29]
+		\subfile{./problems/problem-29}
+		\newpage
+	\end{ticket}
+	
+	\begin{ticket}[30]
+		\subfile{./problems/problem-30}
+		\newpage
+	\end{ticket}
+	
+	\begin{ticket}[34]
+		\subfile{./problems/problem-34}
+		\newpage
+	\end{ticket}
+	
+	\begin{ticket}[35]
+		\subfile{./problems/problem-35}
+		\newpage
+	\end{ticket}
+	
+	\begin{ticket}[36]
+		\subfile{./problems/problem-36}
+		\newpage
+	\end{ticket}
+
+	
 	
 \end{document}

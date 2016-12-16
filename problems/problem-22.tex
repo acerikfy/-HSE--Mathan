@@ -1,14 +1,11 @@
-\section*{Задача 10}
-
 Дайте определения бесконечно малой и бесконечно большой последовательностей и сформулируйте их свойства. Сформулируйте арифметические свойства пределов и докажите их (одно на
-выбор экзаменатора). Найдите $\displaystyle \lim_{n\rightarrow \infty} 
+выбор экзаменатора). Найдите $\displaystyle \lim_{n\rightarrow 2} 
         \frac{
-               \sqrt[5]{2n^4 + 3} \cdot 
-               \sqrt[7]{3n^3 - 1}
+               \sqrt{4x - 3} -
+               \sqrt{1 + 2x}
              }
              {
-               \sqrt[15]{7n^{18} + 3} + 
-               \sqrt[3]{4n^4 + 1}
+               \arcsin(x-2)
              }.$
 
 \subsection*{Решение}
@@ -70,3 +67,52 @@
             \lim (\frac{a}{\beta_n + b} + \alpha \frac{1}{\beta_n + b}) = \lim (\frac{a}{\beta_n + b})$, но так как $\lim (\frac{a}{\beta_n + b} - \frac{a}{b}) = 0$, то $\lim \frac{a}{\beta_n + b} = \frac{a}{b}$.
         \end{proof}
     \end{enumerate}
+    \subsection*{Задание}
+        \begin{enumerate}
+            \item Домножим на сопряженное
+             $\displaystyle \lim_{n\rightarrow 2} 
+        \frac{
+               (\sqrt{4x - 3} -
+               \sqrt{1 + 2x}) 
+               \cdot
+               (\sqrt{4x - 3} +
+               \sqrt{1 + 2x})
+             }
+             {
+               \arcsin(x-2)
+               \cdot
+               (\sqrt{4x - 3} +
+               \sqrt{1 + 2x})
+             }.$
+            \item Скобка в знаментале стремится к $2 \cdot \sqrt{5}$
+            При $х -> 0, arcsin(x)~x$
+            \[
+            \lim_{n\rightarrow 2} 
+        \frac{
+               (\sqrt{4x - 3} -
+               \sqrt{1 + 2x}) 
+               \cdot
+               (\sqrt{4x - 3} +
+               \sqrt{1 + 2x})
+             }
+             {
+               \arcsin(x-2)
+               \cdot
+               (\sqrt{4x - 3} +
+               \sqrt{1 + 2x})
+             } =
+        \frac{
+               2 
+               \cdot
+               (x-2)
+             }
+             {
+               (x-2)
+               \cdot
+               2 \cdot \sqrt{5}
+             } 
+             =
+            \frac{1}{\sqrt{5}}
+             \]
+            \item Ответ: $\frac{1}{\sqrt{5}}$
+        \end{enumerate}
